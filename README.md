@@ -22,3 +22,7 @@ This repository contains The BarbieDollShop contract is designed to manage the b
 
 ## Author
 Riya Verma
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
