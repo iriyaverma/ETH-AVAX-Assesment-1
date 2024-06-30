@@ -22,7 +22,6 @@ contract BarbieDollShop {
         }
         marketFund -= totalCost;
         dollInventory += _amount;
-        assert(dollInventory >= 2);  // Ensure doll inventory is having atleast 2 dolls
         assert(marketFund >= 200); // Ensure market fund is atleast 200
     }
 
@@ -34,6 +33,5 @@ contract BarbieDollShop {
         dollInventory -= _amount;
         marketFund += _amount * dollPriceSell;
         assert(dollInventory >= 2); 
-        assert(marketFund >= 200); 
     }
 }
